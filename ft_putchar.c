@@ -10,9 +10,20 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include <stdio.h>
 
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
+// Función que realiza una prueba
+void realizarTest() {
+    printf("Test realizado con éxito!\n");
 }
+
+int main() {
+    printf("Inicio del test...\n");
+    
+    // Llamada a la función de prueba
+    realizarTest();
+    
+    printf("Fin del test.\n");
+    return 0;
+}
+
