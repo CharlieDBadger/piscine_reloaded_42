@@ -18,7 +18,7 @@ void realizarTest() {
 }
 
 int main() {
-    printf("Inicio del test...\n");
+    printf("Inicio del test...github CharlieDev\n");
     
     // Llamada a la función de prueba
     realizarTest();
